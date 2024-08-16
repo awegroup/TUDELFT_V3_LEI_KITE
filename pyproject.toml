@@ -1,6 +1,6 @@
 [project]
 
-name = "exampleproject"
+name = "TUDELFT_V3_LEI_KITE"
 # Define the name of your project here. This is mandatory. Once you publish your package for the first time,
 # this name will be locked and associated with your project. It affects how users will
 # install your package via pip, like so:
@@ -13,7 +13,7 @@ version = "0.1.0"
 # Version numbers should conform to PEP 440, and are also mandatory (but they can be set dynamic)
 # https://www.python.org/dev/peps/pep-0440/
 
-description = "Short description of your project"
+description = "A data repository containing all relevant analysis and specification of the TUDELFT V3 Leading-Edge-Inflatable kite"
 # Provide a short, one-line description of what your project does. This is known as the
 # "Summary" metadata field:
 # https://packaging.python.org/specifications/core-metadata/#summary
@@ -34,17 +34,17 @@ license = {file = "LICENSE"}
 # This specifies the license.
 # It can be a text (e.g. license = {text = "MIT License"}) or a reference to a file with the license text as shown above.
 
-keywords = ["wind-energy", "simulation"]
+keywords = ["AirborneWindEnergy"]
 # Keywords that describe your project. These assist users in discovering your project on PyPI searches.
 # These should be a comma-separated list reflecting the nature or domain of the project.
 
 authors = [
-  {name = "A. Doe", email = "author@tudelft.nl" }
+  {name = "J.A.W. Poland", email = "j.a.w.poland@tudelft.nl" }
 ]
 # Information about the original authors of the project and their contact details.
 
 maintainers = [
-  {name = "B. Smith", email = "maintainer@tudelft.nl" }
+   {name = "J.A.W. Poland", email = "j.a.w.poland@tudelft.nl" }
 ]
 # Information about the current maintainers of the project and their contact details.
 
@@ -81,9 +81,6 @@ classifiers = [
 # For more on how this field compares to pip's requirements files, see:
 # https://packaging.python.org/discussions/install-requires-vs-requirements/
 dependencies = [
-  "numpy", 
-  "pandas>=1.5.3", 
-  "matplotlib>=3.7.1"
 ]
 
 # You can define additional groups of dependencies here (e.g., development dependencies).
@@ -92,16 +89,16 @@ dependencies = [
 #   $ pip install exampleproject[dev]
 
 # These are often referred to as "extras" and provide optional functionality.
-[project.optional-dependencies]
-dev = [
-  "pytest",
-  "pytest-cov",
-  "black",
-  ]
+# [project.optional-dependencies]
+# dev = [
+#   "pytest",
+#   "pytest-cov",
+#   "black",
+#   ]
 
 [project.urls]
 "Homepage" = "https://github.com/awegroup"
-"Source" = "https://github.com/awegroup/<your_repository>"
+"Source" = "https://github.com/awegroup/TUDELFT_V3_LEI_KITE"
 
 # List of relevant URLs for your project. These are displayed on the left sidebar of your PyPI page.
 # This can include links to the homepage, source code, changelog, funding, etc.
