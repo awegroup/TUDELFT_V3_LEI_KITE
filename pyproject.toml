@@ -81,6 +81,8 @@ classifiers = [
 # For more on how this field compares to pip's requirements files, see:
 # https://packaging.python.org/discussions/install-requires-vs-requirements/
 dependencies = [
+"importlib",
+"pprintpp",
 ]
 
 # You can define additional groups of dependencies here (e.g., development dependencies).
