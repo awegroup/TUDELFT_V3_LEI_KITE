@@ -1,5 +1,7 @@
 # Description
-Generic Python template for AWE Group
+This a data repository, containing files and links to all data related to the TU Delft Leading-Edge Inflatable V3 kite.
+
+![V3](data/pictures/pre_2014_testing_behind_AE_faculty_Delft_overview.JPG)
 
 ## :gear: Installation
 
